@@ -29,7 +29,7 @@ To achieve this, I filtered out the data roles that were most popular and got th
 View steps here:<br>
 [2_skills_demand](3_project/2_skills_demand.ipynb)
 
-### Results
+#### Result
  ![Visualization of Top Roles and Their Corresponding Top 5 Skills](3_project/images/skill_demand_top3_roles.png)<br>
  *Bar Chart showing top Roles and their corresponding top 5 skills*
 
@@ -45,24 +45,8 @@ View steps here:<br>
 View steps here:<br>
 [Skills_Trend](3_project/3_skills_trend.ipynb)
 
-### Visualization
-```python
-from matplotlib.ticker import PercentFormatter
-df_plot = df_DA_USA_perc.iloc[:, :5]
 
-sns.lineplot(data = df_plot, dashes = False, palette = 'tab10')
-
-plt.title('Trending Top Skills for Data Analysts in the US')
-plt.xlabel('2023')
-plt.ylabel('Likelihood in Job Posting')
-plt.legend(loc='upper left', bbox_to_anchor=(1, 1))
-
-ax = plt.gca()
-ax.yaxis.set_major_formatter(PercentFormatter(decimals=0))
-
-plt.show()
-```
-### Results
+#### Result
  ![Visualization of Skills Trend for Data Analysts](3_project/images/Skills_Trend_DA.png)<br>
 *Line Chart showing the trending skills for Data Analysts in the US in 2023.*
 
@@ -78,7 +62,7 @@ View steps here:<br>
 [Salary_Analysis](3_project/4_salary_analysis.ipynb)
 ### A. Salary Distribution for Top 6 Data Roles
 
-#### Results
+#### Result
  ![Salary Distribution for Top 6 Data Roles in the United States](3_project/images/salary_analysis.png)<br>
 *Boxplots showing salary distribution for the top 6 data roles in the United States*
 
@@ -90,7 +74,7 @@ View steps here:<br>
  -  Higher seniority leads to higher salaries in all roles. 
 
 ### B. Highest Paid Skills & In-Demand Skills For Data Scientists
-#### Results 
+#### Result
  ![Salary Distribution for Top 6 Data Roles in the United States](3_project/images/Median_Salary_VS_Skills.png)<br>
 *Boxplots showing salary distribution for the top 6 data roles in the United States*
 
@@ -105,7 +89,7 @@ View steps here:<br>
  View steps here:<br>
 [Optimal_skills](3_project/5_optimal_skills.ipynb)
 
-#### Results
+#### Result
  ![Optimal Skills for Data Scientists According to Core Technologies](3_project/images/optimal_skills.png)
 *Scatterplots showing optimal skills for Data Scientists in the United States*
 
