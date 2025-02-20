@@ -30,7 +30,7 @@ View steps here:<br>
 [2_skills_demand](3_project\2_skills_demand.ipynb)
 
 ### Results
- ![Visualization of Top Roles and Their Corresponding Top 5 Skills](3_project\images\skill_demand_top3_roles.png)
+ ![Visualization of Top Roles and Their Corresponding Top 5 Skills](3_project/images/skill_demand_top3_roles.png)
  *Bar Chart showing top Roles and their corresponding top 5 skills*
 
 ### Insights
@@ -63,7 +63,7 @@ ax.yaxis.set_major_formatter(PercentFormatter(decimals=0))
 plt.show()
 ```
 ### Results
- ![Visualization of Skills Trend for Data Analysts](3_project\images\Skills_Trend_DA.png)
+ ![Visualization of Skills Trend for Data Analysts](3_project/images/Skills_Trend_DA.png)
 *Line Chart showing the trending skills for Data Analysts in the US in 2023.*
 
  ### Insights
@@ -79,7 +79,7 @@ View steps here:<br>
 ### A. Salary Distribution for Top 6 Data Roles
 
 #### Results
- ![Salary Distribution for Top 6 Data Roles in the United States](3_project\images\salary_analysis.png)
+ ![Salary Distribution for Top 6 Data Roles in the United States](3_project/images/salary_analysis.png)
 *Boxplots showing salary distribution for top 6 data roles in the United States*
 
  #### Insights
@@ -91,7 +91,7 @@ View steps here:<br>
 
 ### B. Highest Paid Skills & In-Demand Skills For Data Scientists
 #### Results 
- ![Salary Distribution for Top 6 Data Roles in the United States](3_project\images\Median_Salary_VS_Skills.png)
+ ![Salary Distribution for Top 6 Data Roles in the United States](3_project/images/Median_Salary_VS_Skills.png)
 *Boxplots showing salary distribution for top 6 data roles in the United States*
 
  #### Insights
@@ -106,7 +106,7 @@ View steps here:<br>
 [Optimal_skills](3_project\5_optimal_skills.ipynb)
 
 #### Results
- ![Optimal Skills for Data Scientists According to Core Technologies](3_project\images\optimal_skills.png)
+ ![Optimal Skills for Data Scientists According to Core Technologies](3_project/images/optimal_skills.png)
 *Scatterplots showing optimal skills for Data Scientists in the United States*
 
  #### Insights
