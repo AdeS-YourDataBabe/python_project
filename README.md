@@ -90,7 +90,7 @@ View steps here:<br>
 [Optimal_skills](3_project/5_optimal_skills.ipynb)
 
 #### Result
- ![Optimal Skills for Data Scientists According to Core Technologies](3_project/images/optimal_skills.png)
+ ![Optimal Skills for Data Scientists According to Core Technologies](3_project/images/optimal_skills.png)<br>
 *Scatterplots showing optimal skills for Data Scientists in the United States*
 
  #### Insights
