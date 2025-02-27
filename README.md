@@ -93,6 +93,8 @@ View steps here:<br>
  ![Optimal Skills for Data Scientists According to Core Technologies](3_project/images/optimal_skills.png)<br>
 *Scatterplots showing optimal skills for Data Scientists in the United States*
 
+[test](https://1drv.ms/x/c/b75a89adaa8160d2/IQLljMD02qHhQI0rwcLDSBI3AXiOfXEB2TnbdwV6i0zHBtg?em=2&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True)
+
  #### Insights
 
  - Python and SQL are the most in-demand skills.
